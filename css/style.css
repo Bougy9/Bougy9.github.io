@@ -1,0 +1,150 @@
+@font-face {
+    font-family: AmericanTypewriter;
+    src: url(../font/American\ Typewriter\ Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    font-family: AmericanTypewriter;
+    /*font-family: system-ui;*/
+    
+}
+
+html{
+    width: 1200px;
+    height: 900px;
+}
+
+body{
+    height: inherit;
+}
+
+p{
+    font-size: larger;
+}
+
+#partie-gauche{
+    width: 400px;
+    height: inherit;
+    background-color: #4C4C4C;
+    /*float: left;*/
+    display: inline-block;
+    text-align: center;
+}
+
+#partie-gauche a{
+    color: white;
+    text-decoration: underline;
+
+    /*margin-top: 50%;*/
+    /*margin-left: 25%;*/
+}
+
+#partie-gauche h2{
+    text-align: center;
+    color: #C4C4C4;
+}
+
+#texte-gauche{
+    display: block;
+    margin-top: 195%;
+}
+
+#partie-gauche img{
+    width: 200px;
+    height: 80px;
+}
+
+#partie-droite {
+    width: 800px;
+    height: inherit;
+
+    float: right;
+    background-color: wheat;
+
+    text-align: center;
+}
+
+#img-gordon{
+    width: 180px;
+    height: 227px;
+
+    margin-top: 35%;
+}
+
+.lien-page{
+    display: inline-block;
+    text-align: left;
+
+    line-height: 50px;
+
+    font-size: 20pt;
+    margin-top: 25%;
+}
+
+.page-texte{
+    width: inherit;
+    height: inherit;
+
+    background-color: wheat;
+}
+
+.titre-page{
+    justify-content: space-between;
+
+    display: flex;
+
+    background-color: #4C4C4C;
+    color: #C4C4C4;
+}
+
+.titre-page h1{
+    flex-grow: 0.5;
+}
+
+.SideMenu{
+    height: inherit; 
+    width: 0;
+    position: fixed; 
+    overflow-x: hidden; 
+    background-color: #4C4C4C;
+}
+
+#lien-res li{
+    font-size: larger;
+}
+
+#img-intel{
+    width: 250px;
+    height: 102px;
+}
+
+.texte-image{
+    display: flex;
+}
+
+#img-courbe{
+    width: 500px;
+    height: 329px;
+}
+
+#img-fairchild{
+    width: 704px;
+    height: 224px;
+}
+
+.lien-menu{
+    /*display: inline-block;
+    text-align: left;*/
+
+    line-height: 50px;
+
+    font-size: 20pt;
+    margin-top: 25%;
+
+    color: #C4C4C4;
+}
+
+.lien-menu a{
+    color: inherit;
+}
