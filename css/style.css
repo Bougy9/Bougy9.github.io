@@ -134,9 +134,6 @@ p{
 }
 
 .lien-menu{
-    /*display: inline-block;
-    text-align: left;*/
-
     line-height: 50px;
 
     font-size: 20pt;
@@ -147,4 +144,9 @@ p{
 
 .lien-menu a{
     color: inherit;
+}
+
+#img-courbe-log{
+    width: 605;
+    height: 448;
 }
