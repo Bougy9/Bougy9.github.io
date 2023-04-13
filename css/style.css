@@ -147,6 +147,12 @@ p{
 }
 
 #img-courbe-log{
-    width: 605;
-    height: 448;
+    width: 605px;
+    height: 448px;
+}
+
+#acceuil-lien{
+    margin-left: 25%;
+    color: #C4C4C4;
+    font-size: 20pt;
 }
